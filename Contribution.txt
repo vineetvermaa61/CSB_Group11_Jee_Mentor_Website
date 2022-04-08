@@ -1,0 +1,50 @@
+Here are the memberwise contribution of each member of the group:
+
+WEBSITE => https://education24and7.000webhostapp.com/
+https://github.com/vineetvermaa61/CSB_Group11_Jee_Mentor_Website
+
+NOTE: Some people was working on same thing but the best one is selected.
+
+
+
+=> LCB2021042 - Vineet Kumar Verma:* Created Header,Footer,Home,About,Colleges,Blog & Contact
+                                     page using HTML,CSS,BOOTSTRAP,Internal Javascript
+                                     and PHP. 
+                                   * Also made all these pages completely responsive
+                                     both in small & large screen devices.
+                                   * Design NIT,IIT,IIIT page and created IIIT page.
+                                   * Host website & internet connectivivity.
+                                   * Made completely responsive flexible forms present on some pages using
+                                     PHP, they sends query message to website owner e-mail id.
+                                   * Created PPT of the project. 
+                                   
+
+=> LCB2021021 - Amit Vikram Singh:  * Navbar and footer layout
+                                    * Working on git and github part
+                                    * Making  of readme file 
+                                    * Suggested in content writing and design 
+                                    * Worked together for deployment of project on github
+                                    
+
+=> LCB2021038 – Saka Rushendra Babu:  * Contact us part in navbar
+                                      * Making of webpages and their designing part
+                                      * Some portion of Javascript like alert box
+                                      * Work on making webpages interactive
+
+
+=> LCB2021044 – Aryan Raj Singh:   * Collecting all relevent images and their editing
+                                   * Writing the content on some web pages
+                                   * Designing layout of most of pages
+                                   * Helped others into their work 
+
+
+=> LCB2021034 – Govind Patidar:    * Created footer part and their colour combination
+                                   * Helped group members in deploying project part 
+                                   * Created gallery pages and collected college data
+
+
+=> LCB2021033 – Vishal Kumar:      * Working on Registration and login part 
+                                   * Design form for layout to work on JavaScript.
+                                   * Worked mostly Javascript portion.
+                                   * To validate data satify minimun criteria.
+ 

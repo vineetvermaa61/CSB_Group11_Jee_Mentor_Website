@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jee_Website_Design_Group_11</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="JeeWebsite.html"><img src="images/logo2.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="JeeWebsite.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="College.html">COLLEGES</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+    
+</section>
+
+<!-- -------------about us content-------- -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are CSB Group 11 Of IIIT Lucknow</h1>
+            <p>We made this Majour Project for our college assignment, we faced many problems during making this project, like instead of icons there were boxes showing, then for solving this problem we searched on internet the exact version of bootstrap link matching with icons. Also we worked on every single detail. This website works for small screen devices too. </p>
+            <a href="College.html" class="hero-btn red-btn" >EXPLORE NOW</a>
+
+
+        </div>
+        <div class="about-col">
+            <img src="images/IMG_0986.JPG">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ------Footer----- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We CSB group-11 made this website for our college major project.<br>Our intention is not to hurt any college review website. </p>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/vineetvermaa61"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/vineetvermaa61/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com"><i class="fa fa-linkedin"></i></a>
+
+
+    </div>
+    <p>Made With <i class="fa fa-heart-o"> By Our WebD Team 11</i></p>
+</section>
+
+<!-- -----------Javascript for toggle menu in small screen devices-------- -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+    
+</body>
+</html>
