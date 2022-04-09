@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jee_Website_Design_Group_11</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="JeeWebsite.html"><img src="images/logo2.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="JeeWebsite.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="College.html">COLLEGES</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Top  NIT's</h1>
+
+    
+</section>
+
+
+
+<!-- ------Colleges------- -->
+
+<section class="facilities">
+    <h1>India's Top NIT Colleges</h1>
+    <p>Here is the list of India's Top NIT Engineering Colleges.</p>
+
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/1nittrichy.JPEG">
+            <h3>1. NIT Trichy</h3>
+            <p>Established:	1964</p>
+            <p>Location: Tiruchirappalli, Tamil Nadu</p>
+            <p>NIRF RANK:	23</p>
+            <p>Fees:	92,750</p>
+            <p>Med. Package: 10.50 </p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="images/2NIT-S.jpg">
+            <h3>2. NIT Surathkal</h3>
+            <p>Established:	1960</p>
+            <p>Location: Mangalore, Karnataka</p>
+            <p>NIRF RANK:	32</p>
+            <p>Fees:	85,815</p>
+            <p>Avg. Package: 11.78LPA</p>
+            
+        </div>
+        <div class="facilities-col">
+            <img src="images/NIT-R(1).jpg">
+            <h3>3. NIT Rourkela</h3>
+            <p>Established:	1961</p>
+            <p>Location: 	Rourkela, Odisha</p>
+            <p>NIRF RANK:	41</p>
+            <p>Fees:	1,24,000</p>
+            <p>Avg. Package: 9.36</p>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/4NIT-C.jpg">
+            <h3>4. NIT Calicut</h3>
+            <p>Established:	1961</p>
+            <p>Location: Calicut, Kerala</p>
+            <p>NIRF RANK:	25</p>
+            <p>Fees:	74,343</p>
+            <p>Avg. Package: 10.99LPA</p>
+
+        </div>
+        
+        <div class="facilities-col">
+            <img src="images/download.jpg">
+            <h3>5. NIT Warangal</h3>
+            <p>Established:	1959</p>
+            <p>Location: 	Warangal, Telangana</p>
+            <p>NIRF RANK:	46</p>
+            <p>Fees:	94,500</p>
+            <p>Avg. Package: 13.00LPA</p> 
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!-- ------Footer----- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We CSB group-11 made this website for our college major project.<br>Our intention is not to hurt any college review website. </p>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/vineetvermaa61"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/vineetvermaa61/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com"><i class="fa fa-linkedin"></i></a>
+
+
+    </div>
+    <p>Made With <i class="fa fa-heart-o"> By Our WebD Team 11</i></p>
+</section>
+
+<!-- -----------Javascript for toggle menu in small screen devices-------- -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+    
+</body>
+</html>
+
+
+<style>
+    .header{
+        height: 500px;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pics/logo1.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    /*nav bar*/
+    
+    nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .navbar-links{
+    flex: 1;
+    text-align: right;  
+    }
+    
+    .navbar-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    }
+    
+    .navbar-links ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    }
+    
+    .navbar-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #5c231f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+    
+    .navbar-links ul li:hover::after{
+    width: 100%;
+    }
+    
+    /*Text box*/
+    
+    .text-box{
+    width: 90%;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    }
+    
+    .text-box h1{
+    font-size: 62px;
+    }
+    
+    .text-box h4{
+    font-size: 30px;
+    }
+    
+    .text-box p{
+    margin: 10px 0 40 px;
+    font-size: 14px;
+    color: whitesmoke;
+    }
+    
+    .login-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    }
+    
+    .login-btn:hover{
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    transition: 1s;
+    color: black;
+    }
+    
+    /*main content*/
+    
+    .iit{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 150px;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    
+    .iit h1{
+        font-size: 35px;
+        font-family: 'Bebas Neue', cursive;
+    
+    }
+    
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    .iit-col a{
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    
+    .iit-col h3::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: whitesmoke;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    .iit-col h3:hover::after{
+        width: 60%;
+    }
+  
+    .b-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIT-Bombay\ \(1\).jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;  
+    }
+    
+    
+    .m-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIT-Madras.jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    
+    
+    .k-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIT-Kharaghpur.jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    
+    
+    .d-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIT-delhi.jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    
+    
+    .ka-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIT-KANPUR.png);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .t-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/NIT-T.webp);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .s-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/NIT-S.jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .w-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/NIT-W.webp);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .r-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/NIT-R.webp);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .c-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/NIT-C.jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .l-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIIT-L.webp);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+  
+    .a-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIIT-A.webp);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+  
+    .h-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIIT-H.webp);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .j-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIIT-J.jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+  
+    .id-col{
+        flex-basis: 31%;
+        background: linear-gradient(rgba(56, 56, 58, 0.7),rgba(3, 9, 31, 0.7)), url(pics/IIIT-D.jpg);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 80px 80px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    </style>
